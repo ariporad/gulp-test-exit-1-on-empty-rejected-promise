@@ -1,8 +1,12 @@
+#!/usr/bin/env node
 require('shelljs/global');
 
 if (!which('gulp')) {
     throw new Error('Requires gulp in $PATH!');
 }
+
+console.log('Using Gulp version(s):');
+exec('gulp -v');
 
 function runTask(name) {
     return exec('gulp reject:' + name, { silent: true }).code;
