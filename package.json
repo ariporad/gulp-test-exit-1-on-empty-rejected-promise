@@ -1,0 +1,23 @@
+{
+  "name": "gulp-test-exit-1-on-empty-rejected-promise",
+  "version": "1.0.0",
+  "description": "Testing if gulp exits 1 when a promise is rejected without a value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariporad/gulp-test-exit-1-on-empty-rejected-promise.git"
+  },
+  "author": "Ari Porad <http://ariporad.com> (@ariporad)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ariporad/gulp-test-exit-1-on-empty-rejected-promise/issues"
+  },
+  "homepage": "https://github.com/ariporad/gulp-test-exit-1-on-empty-rejected-promise#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "shelljs": "^0.5.3"
+  }
+}
